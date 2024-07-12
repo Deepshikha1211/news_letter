@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: radial-gradient(rgba(0, 0, 0, 0.726), white);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #heading {
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            margin: 20px 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background: white;
+            border: 2px black dotted;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            display: block;
+        }
+
+        .content {
+            padding: 15px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .content h2 {
+            color: rgb(9, 87, 90);
+            font-size: 25px;
+            margin: 10px 0;
+        }
+
+        .header {
+            background-color: black;
+            position: relative;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image1 {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            right: 650px;
+            top: 26px;
+        }
+
+        .header-button {
+            position: absolute;
+            top: 50%;
+            left: 4%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+           
+        }
+        .header-button a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 id="heading">NewsWave</h1>
+        <img class="image1" src="news_letter.png">
+        <button class="header-button"><a href="index.html">Home</a></button>
+    </div>
+   
+    <div class="gallery">
+        <div class="gallery-item">
+            <h2 class="content">MiMOKO</h2>
+            <img src="1.webp" alt="MiMOKO">
+            <p class="content">MiMOKO sells beautiful handmade ceramic planters and vases. Although the company is primarily an online store, MiMOKO does not merely focus on promoting products and sales in its newsletter. Instead, they use many high-quality photographs to give inspiration for the product’s use. In this newsletter example, you can find tips for styling tall vases, including using flower diversity, varying heights, and different forages in one vase. MiMOKO is able to introduce subscribers to new concepts relating to their products. Furthermore, their email helps solve a reader's pain point and puts the focus on the customer and not the business.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Self-Driving Cars</h2>
+            <img src="2.jpg" alt="Self-Driving Cars">
+            <p class="content">Autonomous vehicle technology achieves record distance without intervention. A self-driving car, also known as an autonomous car (AC), driverless car, robotaxi, robotic car or robo-car, is a car that is capable of operating with reduced or no human input. Self-driving cars are responsible for all driving activities, such as perceiving the environment, monitoring important systems, and controlling the vehicle, which includes navigating from origin to destination.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Breakthrough in Cancer Treatment</h2>
+            <img src="3.webp" alt="Breakthrough in Cancer Treatment">
+            <p class="content">Health Update: Immunotherapy has been a breakthrough in cancer treatment in recent years, showing promise for several types of cancer, including melanoma and lung cancer. Immunotherapy uses a patient's own immune system to help fight cancer, and can have remarkable results with fewer side effects than other treatments. New therapy shows promising results in clinical trials for various types of cancer.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Global Markets Rally</h2>
+            <img src="4.0.webp" alt="Global Markets Rally">
+            <p class="content">Stock markets worldwide surge on positive economic indicators. The S&P 500 Index continued to climb to record highs, although the market’s gains remained notably narrow. As measured by Russell 1000 indexes, growth shares outperformed value stocks by 415 basis points (4.15 percentage points), while the small- and mid-cap benchmarks recorded losses. The technology-heavy Nasdaq Composite ended the week 73.71% off its lows since the market began its rebound in mid- to late-2022, while the more value-oriented and narrowly focused Dow Jones Industrial Average had gained less than half of that amount, 32.79%. Markets were closed Thursday in observance of the Independence Day holiday, and T. Rowe Price traders noted lighter trading volumes as the week progressed.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Record High Temperatures in Arctic</h2>
+            <img src="5.webp" alt="Record High Temperatures in Arctic">
+            <p class="content">Arctic region experiences unprecedented heatwaves, impacting wildlife and ecosystems. The highest temperature ever recorded on the most northern side of the planet has been officially confirmed by the WMO on 20 June 2020 in the Siberian town of Verkhoyansk: 38°C. Temperatures in the Arctic are raising at a rate more than twice the global average. This is causing record numbers of "zombie fires" because of the burning of carbon-rich peat, the thawing of permafrost and the breaking up of Arctic's thickest ice. The highest temperature ever recorded in the Arctic was 38°C (100.4°F) in the Russian town of Verkhoyansk on June 20, 2020. The temperature was recorded during a prolonged Siberian heatwave, and the town is located about 115 kilometers north of the Arctic Circle. The World Meteorological Organization (WMO) added a new climate category to its international archive to recognize the record.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Online Learning Trends</h2>
+            <img src="7.jpg" alt="Online Learning Trends">
+            <p class="content">Rise in virtual classrooms transforms traditional education methods. Elementary schools are using state-of-the-art software to teach kids with creative, predictive learning platforms. Meanwhile, post-secondary educational institutions are so advanced in online learning, they are now even partnering with leading corporations to create Massive Open Online Courses (MOOC’s) that work for training and online education. Online education is growing at a remarkable rate and represents new opportunities and challenges for educators, technologists and students alike.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Tourism Rebound in Popular Destinations</h2>
+            <img src="6.0.jpg" alt="Tourism">
+            <p class="content">Tourist arrivals surge as travel restrictions ease globally. If you were desperate to get away after the restrictions and enforced staying at home of the pandemic years, you were far from alone. Global international tourist arrivals are expected to meet pre-pandemic levels in 2024 driven by this pent-up demand. But, the recovery of the travel and tourism sector since the pandemic has not been without challenges. Add to that macroeconomic, geopolitical and environmental factors, which have added pressures on the industry. These pressures will amplify and evolve over the coming years and, along with the growth of digital technologies and AI, may well force the travel industry to adapt. Some economies are better placed than others to make these changes, respond to future risks and ensure that travel and tourism is a driver of economic growth and prosperity.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Blockbuster Movie Breaks Box Office Records</h2>
+            <img src="8.jpg" alt="movie">
+            <p class="content">The festival has begun across the nation for the fans and the audiences, as Hombale Films' Salaar Part 1: CeaseFire has finally been released in cinemas across the nation on Friday (December 22). The highly-awaited movie opened with a thunderous response from the masses and made the netizens go gaga over Prabhas's screen presence, heroism, action blocks, and sincere performance. The fans and the audiences were waiting to experience the film on the big screens right from the announcement, and with the action entertainer now released in cinemas, the biggest action entertainer has brought a mass carnival for the fans and also at the box office.</p>
+        </div>
+
+        <div class="gallery-item">
+            <h2 class="content">Highly anticipated film smashes opening weekend sales expectations</h2>
+            <img src="9.webp">
+            <p class="content">Director John Krasinski‘s “IF,” a fantasy-comedy that promises your imaginary friends from
+                childhood are real, fell slightly short of box office expectations with $33.7 million — below Sunday’s estimates of $35 million.
+
+                Heading into the weekend, “IF” was expected to bring in at least $40 million in its first weekend of release. Based on Friday’s turnout, it looked like “IF” would open to $30 million but projections were revised up after Saturday’s strong showing. Ticket sales were enough for first place — and decent for an original PG family film — but it’s a wobbly start for a movie that cost $110 million to make and many millions more to market. It collected an additional $20 million overseas for a global total of $55 million.</p>
+         </div>
+
+         <div class="gallery-item">
+            <h2 class="content">Historic Victory at International Championship</h2>
+            <img src="10.webp">
+            <p class="content">Team secures first-ever win in prestigious tournament. Sachin Tendulkar comes out running with that lovely smile. Dhoni has been lifted by couple of players. Gautam Gambhir, the man who played that icy-cool knock under pressure, is also there. Every one is hugging each other. The fire works are in display. Yuvraj hugs Gambhir and ruffles his hair. They scream. Tears of joy from Yuvraj.
+
+                The Sri Lankans slowly get back to the pavilion. The Indian huddle is on the ground. They hop and jump in joy. Harbhajan is crying. With the Indian flag in hand. Yusuf pathan hugs him. He is still crying. Last tIme Sri Lanka won the tournament, and beat India, one Indian cricketer left the arena in tears of sorrow. Now it's the opposite. Crazy scenes out there. Camera pans to Dhoni who has his cap pulled down, his right arm wipes off some sweat. slowly he looks up and high-fives with a team-mate. Gary Kirsten is out there. All smiles.</p>
+         </div>
+         </div>
+         </body>
+         </html>
